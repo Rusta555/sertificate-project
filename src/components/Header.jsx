@@ -3,16 +3,16 @@ function Header () {
         
             <ul className="header">
                 <li>
-                    Mac
+                    What is Apple Premium Reseller
                 </li>
                 <li>
-                    iPad
+                    Payment and delivery
                 </li>
                 <li>
-                    iPhone
+                    Loyalty program
                 </li>
                 <li>
-                    Watch
+                    For Business
                 </li>
                 <li>
                     TV
@@ -22,7 +22,7 @@ function Header () {
                 </li>
                 <li>
                     Accessories
-                </li>
+                </li> 
                 <li>
                     Brands
                 </li>

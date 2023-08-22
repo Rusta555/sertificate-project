@@ -6,3 +6,14 @@
     text-decoration: none;
     
 }
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.card-product{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
