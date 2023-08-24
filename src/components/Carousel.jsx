@@ -1,9 +1,9 @@
 import React from 'react'
 
 
-const Card = (props) => {
+const Carousel = (props) => {
   return (
-    <div className='card'>
+    <div className='carousel'>
         <img src="props.img" alt="product" />{props.image}
 
         <p>{props.title}</p>
@@ -16,4 +16,8 @@ const Card = (props) => {
   );
 }
 
-export default Card
+export default Carousel
+
+
+
+
