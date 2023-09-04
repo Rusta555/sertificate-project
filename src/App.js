@@ -16,27 +16,16 @@ const App = () => {
       <div className="container">
         
         <div className="carousel">
-            {
-            data.map( item=>(
-              <Carousel key={item.id} item={item}
-        /*   img={item.image}
-          title={item.title}
-          description={item.description}
-          price={item.price} */ />
-            ))
-          }
+          <Carousel data={data}  />
         </div>
 
         <div className="card">
-          {
-            data.map(item=>(
-              <Card key={item.id} item={item}
-          img={item.image}
-          title={item.title}
-          description={item.description}
-          price={item.price} />
-            ))
-          }
+        
+              <Card data={data} />
+              <Card data={data} />
+              <Card data={data} />
+              <Card data={data} />
+         
         </div>
           
         
