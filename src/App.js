@@ -5,9 +5,10 @@ import Carousel from './components/Carousel'
 import { data } from './mockdata'
 
 
+
 const App = () => {
   return (
-    <div>
+    <div  className='main' >
         <Header />
         <Navigation />
         
@@ -16,12 +17,12 @@ const App = () => {
         
         <div className="carousel">
             {
-            data.map(item=>(
-              <Carousel
-          img={item.image}
+            data.map( item=>(
+              <Carousel key={item.id} item={item}
+        /*   img={item.image}
           title={item.title}
           description={item.description}
-          price={item.price} />
+          price={item.price} */ />
             ))
           }
         </div>
@@ -29,7 +30,7 @@ const App = () => {
         <div className="card">
           {
             data.map(item=>(
-              <Card
+              <Card key={item.id} item={item}
           img={item.image}
           title={item.title}
           description={item.description}
